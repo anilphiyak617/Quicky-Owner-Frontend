@@ -15,10 +15,10 @@ const Header = () => {
             className="cursor-pointer lg:hidden"
             onClick={() => setMenuOpen(true)}
           >
-            <div class="space-y-1">
-              <div class="w-5 h-0.5 bg-gray-500"></div>
-              <div class="w-5 h-0.5 bg-gray-500"></div>
-              <div class="w-5 h-0.5 bg-gray-500"></div>
+            <div className="space-y-1">
+              <div className="w-5 h-0.5 bg-gray-500"></div>
+              <div className="w-5 h-0.5 bg-gray-500"></div>
+              <div className="w-5 h-0.5 bg-gray-500"></div>
             </div>
           </div>
         )}
@@ -37,7 +37,7 @@ const Header = () => {
 
         {/* logo */}
         <div className="cursor-pointer relative h-10 w-16  lg:h-16 lg:w-24 ">
-          <Image src={img} layout="fill" />
+          <Image src={img} alt="logo" layout="fill" />
         </div>
 
         {/* menu */}
