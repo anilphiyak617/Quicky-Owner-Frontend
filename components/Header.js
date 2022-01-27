@@ -5,7 +5,6 @@ import { useState } from "react";
 import Menu from "./Menu";
 import { Transition } from "@headlessui/react";
 import xIcon from "../public/x.svg";
-import Test from "./Test";
 import Menumobile from "./MenuMobile";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
