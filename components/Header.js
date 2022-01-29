@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import img from "../public/images/logo.jpg";
+import BrandLogo from "../public/images/logo.svg";
 import { useState } from "react";
 import Menu from "./Menu";
 import { Transition } from "@headlessui/react";
-import xIcon from "../public/x.svg";
+import Xicon from "../public/x.svg";
 import Menumobile from "./MenuMobile";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -33,13 +33,14 @@ const Header = () => {
               className="relative transition-all h-6 w-6 ease-in-out duration-1000"
               onClick={() => setMenuOpen(false)}
             >
-              <Image src={xIcon} alt="xicon" layout="fill" />
+              <Xicon />
             </div>
           </>
         )}
         {/* logo */}
-        <div className="cursor-pointer relative h-10 w-16  lg:h-16 lg:w-24 ">
-          <Image src={img} alt="logo" layout="fill" />
+        <div className="cursor-pointer flex items-center relative h-16 w-16  lg:h-20 lg:w-20 ">
+          {/* <Image src={img} alt="logo" layout="fill" /> */}
+          <BrandLogo className="h-10 w-10 md:h-12 md:w-12 lg:w-14 lg:h-14   " />
         </div>
 
         {/* menu */}

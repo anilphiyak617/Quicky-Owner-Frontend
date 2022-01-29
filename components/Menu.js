@@ -1,36 +1,24 @@
 import React from "react";
 
 const Menu = () => {
+  const navList = [
+    { title: "Home" },
+    { title: "Menu" },
+    { title: "Services" },
+    { title: "Create Account" },
+  ];
   return (
     <div className=" hidden md:block">
       <div className="ml-10  lg:flex-rows items-baseline space-x-4">
-        <a
-          href="#"
-          className="text-gray-900 font-medium hover:text-green-500 px-3 py-2  text-md "
-        >
-          Home
-        </a>
-
-        <a
-          href="#"
-          className="text-gray-900 font-medium hover:text-green-500  px-3 py-2  text-md "
-        >
-          Menu
-        </a>
-
-        <a
-          href="#"
-          className="text-gray-900  font-medium hover:text-green-500  px-3 py-2 text-md "
-        >
-          Services
-        </a>
-
-        <a
-          href="#"
-          className="text-gray-900 font-medium hover:text-green-500  py-2  text-md "
-        >
-          How it works
-        </a>
+        {navList.map((item) => (
+          <a
+            href={item.link}
+            key={item.link}
+            className="text-gray-900 font-sans  text-left font-normal hover:text-[#4CC9F0] px-3 py-2  text-md cursor-pointer select-none "
+          >
+            {item.title}
+          </a>
+        ))}
       </div>
     </div>
   );
