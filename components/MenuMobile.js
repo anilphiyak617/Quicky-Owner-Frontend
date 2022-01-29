@@ -21,8 +21,8 @@ const Menumobile = ({ menuOpen }) => {
         <div className="grid grid-cols-1 px-2 pt-2 pb-3 space-y-1 sm:px-3">
           {navList.map((item) => (
             <a
-              href={item.link}
-              key={item.link}
+              href={item.title}
+              key={item.title}
               className="text-gray-900 text-left font-normal hover:text-green-500 px-3 py-2  text-md border-b-2 select-none "
             >
               {item.title}
