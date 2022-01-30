@@ -42,6 +42,7 @@ const Info = () => {
             title={title + ` ${i + 1}`}
             title2={title2}
             content={content}
+            key={i}
           />
         ))}
         <div className=" hidden lg:block absolute w-[100%] h-1/3 bottom-0 lg:bg-pink-200 z-0 ">

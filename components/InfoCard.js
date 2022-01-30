@@ -15,7 +15,7 @@ const Card = ({ img, title, title2, content }) => {
     >
       {/* TODO:image */}
       <div className="relative h-16 w-16 pd-2 lg:p-8 bg-pink-200 rounded-full lg:h-36 lg:w-36">
-        <Image src={img} objectFit="fit" />
+        <Image src={img} objectFit="fit" alt="cardImage" />
       </div>
       {/* {TODO:Heading} */}
       <h2 className="text-lg">{title}</h2>
