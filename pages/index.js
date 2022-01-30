@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Banner from "../components/Banner";
 import Header from "../components/Header";
+import Info from "../components/Info";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
@@ -17,7 +18,13 @@ export default function Home() {
         <section>
           <Banner />
         </section>
+        {/* TODO: HOW it Works section */}
+        <section>
+          <Info />
+        </section>
+        {/* TODO: Customer reviews section */}
       </main>
+      {/* TODO: Create footer component */}
     </div>
   );
 }
