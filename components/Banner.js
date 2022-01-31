@@ -5,7 +5,7 @@ import BannerImage from "../public/svgs/banner.svg";
 // import Button from "./Button";
 const Banner = () => {
   return (
-    <div className="p-6  pt-12 align-center grid grid-cols-1 lg:grid-cols-2   ">
+    <div className="p-6  pt-14 align-center grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-0 ">
       {/* left */}
       <div className="transform flex  lg:order-1">
         {/* <div> */}
