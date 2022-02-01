@@ -4,6 +4,8 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    fontFamily: { rancho: ["Rancho", "sans-serif"] },
+
     extend: {
       keyframes: {
         slideL: {

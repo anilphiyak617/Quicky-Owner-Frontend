@@ -3,29 +3,30 @@ import Reviewcard from "./ReviewCard";
 import Carousel from "react-elastic-carousel";
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
-// import { FiChevronRight } from "react-icons/fi";
-// import { FiChevronLeft } from "react-icons/fi";
+import user1 from "../public/images/user-1.jpg";
+import user2 from "../public/images/user-2.jpg";
+import user3 from "../public/images/user-3.jpg";
 
 const Imagecorousel = () => {
   const usersReviews = [
     {
       content:
         "Quicky delivery fleet saves considerable effort on our part resulting in more fulfilled orders for us. Also, it has now become much easier for customers to discover our brand on Quicky",
-      img: "/../public/images/user-1.jpg",
+      img: user1,
       ownerName: "Alexis Stephan",
       address: "Mumbai , Maharastra",
     },
     {
       content:
         "Quicky delivery fleet saves considerable effort on our part resulting in more fulfilled orders for us. Also, it has now become much easier for customers to discover our brand on Quicky",
-      img: "/../public/images/user-2.jpg",
+      img: user2,
       ownerName: "Manish Sushodia",
       address: "New Delhi , India",
     },
     {
       content:
         "Quicky delivery fleet saves considerable effort on our part resulting in more fulfilled orders for us. Also, it has now become much easier for customers to discover our brand on Quicky",
-      img: "/../public/images/user-3.jpg",
+      img: user3,
       ownerName: "Subhankar Gosh",
       address: "Goa , India",
     },

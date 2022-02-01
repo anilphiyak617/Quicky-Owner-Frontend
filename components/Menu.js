@@ -14,7 +14,7 @@ const Menu = () => {
           <a
             href={item.title}
             key={item.title}
-            className="text-gray-900 font-sans  text-left font-normal hover:text-[#4CC9F0] px-3 py-2  text-md cursor-pointer select-none "
+            className="text-gray-900 font-sans  text-left font-semibold tracking-wider hover:text-[#4CC9F0] px-3 py-2  text-md  cursor-pointer select-none "
           >
             {item.title}
           </a>

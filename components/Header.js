@@ -40,7 +40,10 @@ const Header = () => {
         {/* logo */}
         <div className="cursor-pointer flex items-center relative h-16 w-16  lg:h-20 lg:w-20 ">
           {/* <Image src={img} alt="logo" layout="fill" /> */}
-          <BrandLogo className="h-10 w-10 md:h-12 md:w-12 lg:w-14 lg:h-14   " />
+          {/* <BrandLogo className="h-10 w-10 md:h-12 md:w-12 lg:w-14 lg:h-14   " /> */}
+          <h1 className=" p-2 bg-clip-text  bg-gradient-to-r from-[#F72585] via-[#7209B7] to-[#4361EE] text-transparent text-4xl lg:text-5xl font-semibold font-rancho">
+            Quicky
+          </h1>
         </div>
 
         {/* menu */}

@@ -18,7 +18,7 @@ const Banner = () => {
       <div className="flex flex-col lg:pl-10   m-auto space-y-3 ">
         <h1 className="text-3xl text-center lg:text-6xl lg:text-left  lg:w-2/3 lg:leading-tight text-[#F72585] font-sans font-bold lg:font-bold">
           Register your Shop on{" "}
-          <span className="bg-clip-text  bg-gradient-to-r from-[#F72585] via-[#7209B7] to-[#4361EE] text-transparent">
+          <span className="bg-clip-text  bg-gradient-to-r from-[#F72585] via-[#7209B7] to-[#4361EE] text-transparent font-rancho lg:text-7xl tracking-wider">
             Quicky
           </span>
         </h1>
