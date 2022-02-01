@@ -5,7 +5,7 @@ import BannerImage from "../public/svgs/banner.svg";
 // import Button from "./Button";
 const Banner = () => {
   return (
-    <div className="p-6  pt-14 align-center grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-0 ">
+    <div className="p-6  pt-14 align-center grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-0 bg-pink-50">
       {/* left */}
       <div className="transform flex  lg:order-1">
         {/* <div> */}
@@ -22,14 +22,14 @@ const Banner = () => {
             Quicky
           </span>
         </h1>
-        <h3 className="text-xl text-center lg:text-left text-[#ee5c9e] font-normal ">
+        <h3 className="text-lg lg:text-xl text-center lg:text-left text-[#ee5c9e] font-normal ">
           Enhance your customer experience for free!
         </h3>
         <div className="flex flex-col lg:flex-row py-6 items-center space-y-2 lg:space-y-0 lg:space-x-3">
-          <button className="  text-lg text-white py-2 w-[100%] xl:px-10 bg-[#7209B7] hover:bg-[#3A0CA3] shadow-md rounded-3xl">
+          <button className="  text-lg text-white py-2 w-[100%] xl:px-10 bg-[#7209B7] hover:bg-[#3A0CA3] shadow-sm rounded-3xl">
             Get your Shop on Quicky
           </button>
-          <button className="  text-lg text-[#3A0CA3] border border-[#3A0CA3] w-[100%]  py-2  xl:px-8 shadow-md rounded-3xl">
+          <button className="  text-lg text-[#3A0CA3] border border-[#3A0CA3] w-[100%]  py-2  xl:px-8 shadow-sm rounded-3xl">
             Already a part? Login now
           </button>
         </div>

@@ -8,7 +8,7 @@ import Xicon from "../public/x.svg";
 import Menumobile from "./MenuMobile";
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  let height = `${menuOpen ? "shadow-md h-[100vh]" : "shadow-md"}`;
+  let height = `${menuOpen ? "shadow-md h-[100vh]" : " shadow-md"}`;
   return (
     <div className={height}>
       {/* // menu bar */}

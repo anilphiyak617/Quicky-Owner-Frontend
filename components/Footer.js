@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div className="px-4 divide-y dark:bg-coolGray-800 dark:text-coolGray-100">
+    <div className="px-4 divide-y dark:bg-pink-100 dark:text-coolGray-100">
       <div className="container flex flex-col justify-between py-10 mx-auto space-y-8 lg:flex-row lg:space-y-0">
         <div className="grow">
           <a
@@ -10,7 +10,7 @@ const Footer = () => {
             href="#"
             className="flex justify-center "
           >
-            <span className="self-center text-3xl lg:text-5xl pb-2  bg-clip-text  bg-gradient-to-r from-[#F72585] via-[#7209B7] to-[#4361EE] text-transparent font-bold">
+            <span className="self-center text-3xl lg:text-5xl pb-2  bg-clip-text  bg-gradient-to-r from-[#F72585] via-[#7209B7] to-[#4361EE] hover:to-[#F72585] hover:via-[#7209B7] hover:from-[#4361EE] hover:bg-gradient-to-r  transition-colors ease-in text-transparent font-bold">
               Quicky&trade;
             </span>
           </a>
