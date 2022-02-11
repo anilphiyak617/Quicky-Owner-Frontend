@@ -8,6 +8,7 @@ import {
 import { MdLockOutline } from "react-icons/md";
 import { useForm } from "react-hook-form";
 import { useEffect } from "react";
+
 const Loginform = () => {
   const {
     register,
@@ -38,7 +39,7 @@ const Loginform = () => {
       <form method="POST" onSubmit={handleSubmit(onSubmit)}>
         <div className="flex flex-col gap-3 w-full lg:w-1/2 m-auto ">
           <div
-            className={`flex  border border-gray-500 rounded-md  items-center ${
+            className={`flex  border-2 rounded-md  items-center ${
               errors.email && "border-red-400"
             } `}
           >
@@ -64,7 +65,7 @@ const Loginform = () => {
           )}
           {/* email input */}
           <div
-            className={`flex w-full    border border-gray-500  rounded-md   items-center ${
+            className={`flex w-full    border-2 focus:border-pink-600  rounded-md   items-center ${
               errors.password && "border-red-400"
             } `}
           >
