@@ -43,7 +43,10 @@ const Login = () => {
           </div>
           {/* left section */}
           <div className=" hidden lg:block w-2/5 bg-gradient-to-br from-pink-700  to-pink-400   py-36 px-6   rounded-br-2xl rounded-tr-2xl ">
-            <div className="rounded-2xl p-4 border  bg-pink-500 bg-opacity-5 backdrop-blur-xl ">
+            <div
+              className="rounded-2xl p-4 border  bg-pink-500 bg-opacity-5 backdrop-blur-xl
+             "
+            >
               <h2 className="text-3xl text-center text-white py-3 mb-2 font-bold">
                 Hello, Shopman
               </h2>

@@ -10,9 +10,9 @@ const Signup = () => {
   return (
     <div className=" flex bg-pink-50">
       <div className="bg-white w-full max-w-md p-8 space-y-3 rounded-xl dark:bg-coolGray-900 dark:text-coolGray-100  lg:shadow-2xl md:m-auto md:mt-8 lg:m-8 lg:ml-40 ">
-        <Link href="/">
+        <Link href="/" passHref>
           <h1 className=" cursor-pointer p-2 bg-clip-text text-center lg:text-left bg-gradient-to-r from-[#F72585] via-[#7209B7] to-[#4361EE] text-transparent text-4xl lg:text-5xl font-semibold font-rancho tracking-wide">
-            Quicky
+            <a>Quicky</a>
           </h1>
         </Link>
         <h2 className="text-2xl font-bold text-center text-pink-600">

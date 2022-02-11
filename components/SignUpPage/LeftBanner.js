@@ -5,9 +5,9 @@ export default function leftBanner() {
   return (
     <div className=" hidden relative lg:flex items-center  w-full bg-pink-100  ">
       <div className="absolute p-6 px-14 top-0 w-full flex justify-end">
-        <Link href="/login">
+        <Link href="/login" passHref>
           <button className="p-2 px-10 text-center  text-pink-500 font-semibold border  border-pink-500 rounded-3xl hover:bg-pink-500 hover:text-white hover:border-0    transition ease-in cursor-pointer z-10">
-            Login
+            <a>Login</a>
           </button>
         </Link>
       </div>
