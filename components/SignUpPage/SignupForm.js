@@ -20,7 +20,7 @@ const Signupform = () => {
       className="space-y-6 "
     >
       <div className="space-y-1 text-sm">
-        <label for="username" className="block dark:text-coolGray-400">
+        <label htmlFor="firstName" className="block dark:text-coolGray-400">
           First Name
         </label>
         <input
@@ -43,7 +43,7 @@ const Signupform = () => {
       </div>
       {/* firstname */}
       <div className="space-y-1 text-sm">
-        <label for="lastname" className="block dark:text-coolGray-400">
+        <label htmlFor="lastname" className="block dark:text-coolGray-400">
           Last Name
         </label>
         <input
@@ -57,7 +57,7 @@ const Signupform = () => {
       </div>
       {/* lastname */}
       <div className="space-y-1 text-sm">
-        <label for="email" className="block dark:text-coolGray-400">
+        <label htmlFor="email" className="block dark:text-coolGray-400">
           Email
         </label>
         <input
@@ -84,7 +84,7 @@ const Signupform = () => {
       </div>
       {/* email */}
       <div className="space-y-1 text-sm">
-        <label for="password" className="block dark:text-coolGray-400">
+        <label htmlFor="password" className="block dark:text-coolGray-400">
           Password
         </label>
         <input

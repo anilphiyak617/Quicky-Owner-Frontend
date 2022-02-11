@@ -25,8 +25,8 @@ export default function leftBanner() {
           <span className="text-pink-600"> &nbsp;Family</span>
         </h1>
         <p className="mt-8 select-none text-left text-gray-800 font-semibold ">
-          Did you know that the presence of people's faces in interfaces
-          Property — Ireland's new real estate platform that I've
+          Did you know that the presence of peoples faces in interfaces Property
+          — Irelands new real estate platform that Ive
         </p>
       </div>
     </div>
