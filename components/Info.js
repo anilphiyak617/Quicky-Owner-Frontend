@@ -5,6 +5,7 @@ import qrCodeIcon from "../public/images/qr-code.png";
 import checkoutIcon from "../public/images/shopping-bag.png";
 import Image from "next/image";
 import bgImage from "../public/images/info-banner.jpeg";
+import prodImg from "../public/images/productimg.png"
 
 const Info = () => {
   const cardsData = [
@@ -17,8 +18,15 @@ const Info = () => {
     },
     {
       title: "Step",
+      img: prodImg,
+      title2: "Search the product in Nearby Store",
+      content:
+        "If you like your filler text creamy, melty or aged, than Cheese Ipsum is the site for you.",
+    },
+    {
+      title: "Step",
       img: qrCodeIcon,
-      title2: "Scan the Product",
+      title2: "Visit the store and take away",
       content:
         "If you like your filler text creamy, melty or aged, than Cheese Ipsum is the site for you.",
     },
