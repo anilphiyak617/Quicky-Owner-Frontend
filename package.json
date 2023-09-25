@@ -3,7 +3,7 @@
   "proxy": "http://0.0.0.0:5000",
   "private": true,
   "engines": {
-    "node": "v20.3.1"
+    "node": "18.x"
   },
   "scripts": {
     "dev": "next dev",
