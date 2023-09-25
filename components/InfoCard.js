@@ -15,7 +15,7 @@ const Card = ({ img, title, title2, content }) => {
       // onMouseLeave={() => setCardDisplaced((state) => !state)}
     >
       {/* TODO:image */}
-      <div className="relative h-16 w-16 pd-2 lg:p-8 bg-pink-100 rounded-full lg:h-36 lg:w-36">
+      <div className="relative h-16 w-16 pd-2 lg:p-8 bg-pink-100 rounded-full lg:h-36 lg:w-48">
         <Image src={img} objectFit="fit" alt="cardImage" />
       </div>
       {/* {TODO:Heading} */}
