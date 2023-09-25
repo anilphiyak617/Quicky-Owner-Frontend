@@ -32,7 +32,7 @@ export default function Home() {
           <ImageSlider />
         </section>
       </main>
-
+      ;
       <Footer />
     </div>
   );

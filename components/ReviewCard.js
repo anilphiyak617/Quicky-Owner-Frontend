@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import headlessui, { Transition } from "@headlessui/react";
 
 const Reviewcard = ({ img, ownerName, address, content, length, hidden }) => {
   return (
@@ -18,9 +17,9 @@ const Reviewcard = ({ img, ownerName, address, content, length, hidden }) => {
         <div className="relative h-20 w-20 lg:h-40 lg:w-40  ">
           <Image
             src={img}
-            layout="fill"
+            // layout="fill"
             className="rounded-full lg:rounded-2xl"
-            objectFit="cover"
+            // objectFit="cover"
             alt="review image"
           />
         </div>

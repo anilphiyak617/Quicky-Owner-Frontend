@@ -1,9 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import BrandLogo from "../public/images/logo.svg";
 import { useState } from "react";
 import Menu from "./Menu";
-import { Transition } from "@headlessui/react";
 import Xicon from "../public/x.svg";
 import Menumobile from "./MenuMobile";
 import { useRouter } from "next/router";

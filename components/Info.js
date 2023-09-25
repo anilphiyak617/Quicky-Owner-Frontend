@@ -57,8 +57,8 @@ const Info = () => {
           <Image
             src={bgImage}
             className="rounded-lg hover:scale-105 transition-all ease-in duration-300 "
-            layout="fill"
-            objectFit="cover"
+            // layout="fill"
+            // objectFit="cover"
             alt="infoImage"
           />
         </div>

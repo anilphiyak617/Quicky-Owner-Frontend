@@ -1,7 +1,6 @@
-import Image from "next/image";
 import React from "react";
-import CartImage from "../public/svgs/cart-image.svg";
 import BannerImage from "../public/svgs/banner.svg";
+import Image from "next/image";
 // import Button from "./Button";
 const Banner = () => {
   return (

@@ -20,8 +20,9 @@ const Login = () => {
       <Head>
         <title>Quicky</title>
       </Head>
-      <div className="w-full h-[100vh] lg:bg-gradient-to-r from-pink-50 to-pink-200 flex  lg:justify-center">
+      <div className="w-full h-screen lg:bg-gradient-to-r from-pink-50 to-pink-200 flex  lg:justify-center">
         <div className="w-4/5 lg:w-3/4  flex  m-auto shadow-2xl rounded-2xl items-center max-w-4xl bg-white">
+          {/* left */}
           <div className="w-full lg:w-3/5 flex-1 p-5">
             <h1
               onClick={homeRouteHandler}
@@ -41,10 +42,10 @@ const Login = () => {
             <Loginform />
             {/* form */}
           </div>
-          {/* left section */}
+          {/* right section */}
           <div className=" hidden lg:block w-2/5 bg-gradient-to-br from-pink-700  to-pink-400   py-36 px-6   rounded-br-2xl rounded-tr-2xl ">
             <div
-              className="rounded-2xl p-4 border  bg-pink-500 bg-opacity-5 backdrop-blur-xl
+              className="rounded-2xl p-4 border  bg-pink-500 bg-opacity-80 backdrop-blur-3xl
              "
             >
               <h2 className="text-3xl text-center text-white py-3 mb-2 font-bold">
@@ -63,7 +64,6 @@ const Login = () => {
               </button>
             </div>
           </div>
-          {/* right */}
         </div>
       </div>
     </>

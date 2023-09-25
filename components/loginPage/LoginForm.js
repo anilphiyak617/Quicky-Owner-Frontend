@@ -8,6 +8,7 @@ import {
 import { MdLockOutline } from "react-icons/md";
 import { useForm } from "react-hook-form";
 import { useEffect } from "react";
+import Link from "next/link";
 
 const Loginform = () => {
   const {
@@ -37,9 +38,9 @@ const Loginform = () => {
   return (
     <>
       <form method="POST" onSubmit={handleSubmit(onSubmit)}>
-        <div className="flex flex-col gap-3 w-full lg:w-1/2 m-auto ">
+        <div className="lex flex-col gap-10 w-full lg:w-4/5 m-auto ">
           <div
-            className={`flex  border-2 rounded-md  items-center ${
+            className={`flex  border-2 rounded-md  items-center mt-4  ${
               errors.email && "border-red-400"
             } `}
           >
@@ -65,7 +66,7 @@ const Loginform = () => {
           )}
           {/* email input */}
           <div
-            className={`flex w-full    border-2 focus:border-pink-600  rounded-md   items-center ${
+            className={`flex w-full    border-2 focus:border-pink-600  rounded-md   items-center mt-4 ${
               errors.password && "border-red-400"
             } `}
           >
@@ -90,7 +91,7 @@ const Loginform = () => {
 
         {/* //second section */}
 
-        <div className=" flex 0 lg:w-1/2 m-auto mt-3">
+        {/* <div className=" flex 0 lg:w-1/2 m-auto mt-3">
           <label className="flex flex-1 items-center  text-md lg:text-sm font-normal">
             <input
               type="checkbox"
@@ -102,22 +103,23 @@ const Loginform = () => {
           <a href="#" className="text-md text-blue-600 lg:text-sm font-normal">
             Forgot Password?
           </a>
-        </div>
+        </div> */}
         {/* forgot password */}
-
-        <button
-          className=" m-auto  mt-6 lg:mt-10 md:block px-12 py-2 font-semibold  text-white  border-2 bg-pink-500 hover:bg-pink-600 transition ease-in rounded-full shadow-sm lg:px-12 lg:py-2 text-lg  lg:font-normal"
-          type="submit"
-        >
-          Sign In
-        </button>
+        <div className="flex mt-6 align justify-center">
+          <button
+            className="lg:mt-10 px-12 py-2 font-semibold  text-white  border-2 bg-pink-500 hover:bg-pink-600 transition ease-in rounded-full shadow-sm lg:px-12 lg:py-2 text-lg  lg:font-normal"
+            type="submit"
+          >
+            Sign In
+          </button>
+        </div>
         {/* signin btn */}
       </form>
-      <a className="lg:hidden">
-        <h3 className=" cursor-pointer mt-10 w-2/3 m-auto  text-lg font-semibold  text-center text-pink-600 border-b-2 border-pink-300 ">
+      <Link href={"/signup"} passHref className="lg:hidden">
+        <h3 className="cursor-pointer mt-4 w-1/3 m-auto  text-lg font-semibold  text-center text-pink-600 border-b-2 border-pink-300 hover:text-pink-400 ">
           Create a Account
         </h3>
-      </a>
+      </Link>
     </>
   );
 };
