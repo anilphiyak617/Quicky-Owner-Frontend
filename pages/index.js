@@ -29,7 +29,7 @@ export default function Home() {
           <h1 className="text-2xl lg:text-5xl text-center p-4  lg:pt-16 font-semibold bg-gradient-to-br bg-clip-text from-[#F72585] to-[#3A0CA3] text-transparent ">
             Our Satisfied Customers
           </h1>
-          <ImageSlider />
+          {/* <ImageSlider /> */}
         </section>
       </main>
       ;

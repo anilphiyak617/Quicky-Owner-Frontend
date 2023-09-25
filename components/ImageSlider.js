@@ -1,6 +1,6 @@
 import React from "react";
 import Reviewcard from "./ReviewCard";
-import Carousel from "react-elastic-carousel";
+// import Carousel from "react-elastic-carousel";
 import { useState } from "react";
 import { Transition } from "@headlessui/react";
 import user1 from "../public/images/user-1.jpg";
