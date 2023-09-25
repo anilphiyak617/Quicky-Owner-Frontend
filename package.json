@@ -2,6 +2,9 @@
   "name": "quicky-buy",
   "proxy": "http://0.0.0.0:5000",
   "private": true,
+  "engines": {
+    "node": "v20.3.1"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
