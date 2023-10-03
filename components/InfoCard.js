@@ -7,7 +7,7 @@ const Card = ({ img, title, title2, content }) => {
 
   return (
     <div
-      className="flex flex-col  m-auto lg:m-0  space-y-3 items-center bg-gray-100 rounded-xl p-6  translate-y-10 lg:hover:translate-y-0 transition-transform ease-in-out z-10 shadow-md"
+      className="flex flex-col  m-auto lg:m-0  space-y-3 items-center bg-white rounded-xl p-6  translate-y-10 lg:hover:translate-y-0 transition-transform ease-in-out z-10 shadow-xl"
 
       // onMouseEnter={() => {
       //   setCardDisplaced((state) => !state);
